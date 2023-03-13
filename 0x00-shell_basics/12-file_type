@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "/tmp/iamafile: $file_type"
+file_type=$(file /tmp/iamafile); echo "/tmp/iamafile: $file_type"
